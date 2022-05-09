@@ -1,5 +1,144 @@
+/* Resets */
+
 body {
     margin: 0;
-    background: pink;
+    padding: 0;
+    background-color: gray;
+  }
+  
+  table, td {
+    border-collapse:collapse;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    border: 0 none;
+  }
+  
+  
+  /* General Colors */
+  .white {
+    color: #ffffff;
+  }
+  
+  .black {
+    color: #000000;
+  }
+  
+  /* General Sizes */
+  h6 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  /* Test Palette */
+  
+  .c1 {
+    color: #e9edf0;
+  }
+  
+  .c2 {
+    color: #7d6b5c;
+  }
+  
+  .c3 {
+    color: #dcdde2;
+  }
+  
+  .c4 {
+    color: #a19a90;
+  }
+  
+  .c5 {
+    color: #bab8ae;
+  }
+  
+  /* ---------- Starbucks Palette ---------- */
+  
+  /* used as headline / body text & SBS bgs*/
+  .sb-deep-green {
+    color: #1e3932;
+  }
+  
+  /* used in SBS bgs */
+  .sb-light-green {
+    color: #d4e9e2;
+  }
+  
+  .test-font {
+    font-family: Impact , Helvetica, Arial, sans-serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+  }
+  
+  .test-font-2 {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /* ---------- World of Warcraft Palette ---------- */
+  .wow-blue {
+    color: #00c0ff;
+  }
+   
+  .wow-gray {
+    color: #cccccc;
+  }
+  
+  .wow-font {
+    font-family: "Arial", "Helvetica", sans-serif;
+  }
+  
+  
+  /* General Styles */
+  
+  .container {
+    margin: 50px auto;
+    border: 1px solid white;
+    background: #dcdde2;
     text-align: center;
-}
+  } 
+  
+  /* Hero Styles */
+  
+  .hero {
+    background-color: #2d1a15;
+  }
+  
+  .hero .title {
+    padding: 25px 50px;
+  }
+   
+  /* Footer Styles */
+  .footer {
+    padding-bottom: 45px;
+    background-color: #2d1a15;
+  }
+  
+  .footer .headline {
+    padding: 25px 0 10px;
+  } 
+  
+  .footer .social-container {
+    padding-bottom: 15px;
+  }
+  
+  .footer .social-container .icon a svg {
+    color: #bab8ae;
+  }
+  
+  .footer .divider-1 {
+    width: 600px;
+  }
+  
+  .footer .divider-2 {
+    width: 400px;
+  }
+  
+  .footer .divider-3 {
+    width: 200px;
+  }
