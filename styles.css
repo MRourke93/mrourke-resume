@@ -7,7 +7,7 @@ body {
   }
   
   table, td {
-    border-collapse:collapse;
+    border-collapse: collapse;
   }
   
   p, h1, h2, h3, h4, h5, h6 {
@@ -69,7 +69,7 @@ body {
   
   /* ---------- Starbucks Palette ---------- */
   
-  /* used as headline / body text & SBS bgs*/
+  /* used as headline / body text & SBS bgs */
   .sb-deep-green {
     color: #1e3932;
   }
@@ -79,6 +79,19 @@ body {
     color: #d4e9e2;
   }
   
+  /* ---------- AMAT Palette ---------- */
+  .amat-white {
+    color: #fff;
+  }
+  
+  .amat-blue {
+    background-color: #347da2;
+  }
+  
+  .amat-brown {
+    color: #DB9946;
+  }
+  
   /* ---------- World of Warcraft Palette ---------- */
   .wow-blue {
     color: #00c0ff;
@@ -86,7 +99,7 @@ body {
    
   .wow-gray {
     color: #cccccc;
-  } 
+  }
   
   
   /* General Styles */
@@ -95,7 +108,7 @@ body {
     border: 1px solid white;
     background: #ffffff;
     text-align: center;
-  } 
+  }
   
   .spacer {
     font-size: 40px;
@@ -105,7 +118,7 @@ body {
   
   /* Hero Styles */
   .hero {
-    background-color: #1e3932;
+    background-color: #347da2;
   }
   
   .hero .title {
@@ -119,15 +132,19 @@ body {
     background-color: #ffffff;
   }
   
-  .starbucks-mod .experience-banner  .headline {
+  .starbucks-mod .experience-banner .headline {
     background-image: url("https://www.nestlecoffeepartnerssl.com/media/wysiwyg/public/starbucks/WPS_Portal_Desktop_Starbucks1Brand.jpg");
     background-size: 100%;
-    background-repeat: no-repeat; 
-    padding: 30px 50px; 
+    background-repeat: no-repeat;
+    padding: 30px 50px;
     text-align: left;
-  } 
+  }
   
-  .starbucks-mod .experience-banner  h3 {
+  .starbucks-mod .experience-banner {
+    padding-bottom: 10px;
+  }
+  
+  .starbucks-mod .experience-banner h3 {
     margin: 5px 0;
   }
    
@@ -142,24 +159,76 @@ body {
     text-align: left;
     padding-bottom: 20px;
   }
-  
-  .starbucks-mod .experience-content .intro {
-    padding: 10px 0;
-  }
    
   .starbucks-mod .experience-content .text-content {
     padding: 0 20px;
-  } 
+  }
+  
+  /* AMAT Module Styles */
+  .amat-mod {
+    padding: 0 25px;
+    background-color: #ffffff;
+  }
+  
+  .amat-mod .experience-banner .headline {
+    background-image: url("https://www.appliedmaterials.com/files/styles/landing_hero/public/IR-Banner-3200x1000-A.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+    text-align: left;
+    background-position: left;
+  }
+  
+  .amat-mod .experience-banner {
+    padding-bottom: 10px;
+  }
+  
+  .amat-mod .experience-banner h3 {
+    margin: 5px 0;
+  }
+   
+  .amat-mod .experience-banner .divider {
+    width: 400px;
+    margin: 0;
+    color: #d4e9e2;
+    border-top: 4px solid #d4e9e2;
+  }
+  
+  .amat-mod .experience-content {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+   
+  .amat-mod .experience-content .text-content {
+    padding: 0 20px;
+  }
+   
+  /* Education Styles */
+  .education-mod {
+    padding: 0 25px;
+  }
+  
+  .education-mod .headline {
+    background-color: #d4e9e2;
+    padding: 20px 30px;
+  }
+  
+  .education-mod .divider {
+    width: 200px;
+    margin: 0 auto;
+    color: #347da2;
+    border-top: 4px solid #347da2;
+  }
    
   /* Footer Styles */
   .footer {
     padding-bottom: 45px;
-    background-color: #1e3932;
+    background-color: #347da2;
   }
   
   .footer .headline {
     padding: 25px 0 10px;
-  }  
+  }
   
   .footer .social-container .icon a svg {
     color: #d4e9e2;
