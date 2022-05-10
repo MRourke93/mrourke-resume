@@ -211,6 +211,7 @@ body {
   .education-mod .headline {
     background-color: #d4e9e2;
     padding: 20px 30px;
+    text-align: center;
   }
   
   .education-mod .divider {
@@ -219,7 +220,19 @@ body {
     color: #347da2;
     border-top: 4px solid #347da2;
   }
-   
+
+  .edcucation-mod .framework-mod {
+    width: 225px;
+  }
+  
+  .education-mod .school-mod {
+    padding: 0 10px;
+  }
+  
+  .edcucation-mod .tool-mod {
+    width: 225px;
+  }
+
   /* Footer Styles */
   .footer {
     padding-bottom: 45px;
