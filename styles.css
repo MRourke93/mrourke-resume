@@ -119,10 +119,56 @@ p {
 /* Hero Styles */
 .hero {
   background-color: #347da2;
+  padding-bottom: 20px;
 }
 
 .hero .title {
   padding: 25px 50px;
+  text-align: center;
+}
+
+.hero .headline {
+  padding: 25px 0 10px;
+}
+
+.hero .social-container .icon p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero .social-container .icon {
+  width: 200px;
+}
+
+.hero .social-container .icon a svg {
+  color: #d4e9e2;
+}
+
+/* About Module Styles */
+
+.about-mod {
+  padding: 0 25px;
+  text-align: left;
+}
+
+.about-mod .divider {
+  height: 50px;
+  margin: 0;
+  border-left: 2px solid black;
+}
+
+.about-mod .about-icon {
+  width: 30px;
+  padding-right: 20px;
+}
+
+.about-mod h1 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.about-mod p {
+  padding-left: 10px;
 }
 
 /* ICON BANNER STYLES */
@@ -140,45 +186,6 @@ p {
 
 .icon-banner .icon {
   padding: 20px;
-}
-
-/* Starbucks Module Styles */
-
-.starbucks-mod {
-  padding: 0 25px;
-  background-color: #ffffff;
-}
-
-.starbucks-mod .experience-banner .headline {
-  background-image: url("https://www.nestlecoffeepartnerssl.com/media/wysiwyg/public/starbucks/WPS_Portal_Desktop_Starbucks1Brand.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 30px 50px;
-  text-align: left;
-}
-
-.starbucks-mod .experience-banner {
-  padding-bottom: 10px;
-}
-
-.starbucks-mod .experience-banner h3 {
-  margin: 5px 0;
-}
- 
-.starbucks-mod .experience-banner .divider {
-  width: 400px;
-  margin: 0;
-  color: #d4e9e2;
-  border-top: 4px solid #d4e9e2;
-}
-
-.starbucks-mod .experience-content {
-  text-align: left;
-  padding-bottom: 20px;
-}
- 
-.starbucks-mod .experience-content .text-content {
-  padding: 0 20px;
 }
 
 /* AMAT Module Styles */
@@ -219,39 +226,84 @@ p {
 .amat-mod .experience-content .text-content {
   padding: 0 20px;
 }
- 
-/* Education Styles */
-.education-mod {
+
+/* Starbucks Module Styles */
+
+.starbucks-mod {
   padding: 0 25px;
+  background-color: #ffffff;
 }
 
-.education-mod .headline {
-  background-color: #d4e9e2;
+.starbucks-mod .experience-banner .headline {
+  background-image: url("https://www.nestlecoffeepartnerssl.com/media/wysiwyg/public/starbucks/WPS_Portal_Desktop_Starbucks1Brand.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+  text-align: left;
+}
+
+.starbucks-mod .experience-banner {
+  padding-bottom: 10px;
+}
+
+.starbucks-mod .experience-banner h3 {
+  margin: 5px 0;
+}
+ 
+.starbucks-mod .experience-banner .divider {
+  width: 400px;
+  margin: 0;
+  color: #d4e9e2;
+  border-top: 4px solid #d4e9e2;
+}
+
+.starbucks-mod .experience-content {
+  text-align: left;
+  padding-bottom: 20px;
+}
+ 
+.starbucks-mod .experience-content .text-content {
+  padding: 0 20px;
+}
+ 
+/* School Styles */
+.school-mod {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.school-mod .school-border {
+  border: 4px solid #47597E;
+  text-align: center;
+  background-color: #DBE6FD;
+}
+
+.school-mod .headline {
   padding: 20px 30px;
 }
 
-.education-mod .divider {
-  width: 200px;
+.school-mod .divider {
+  width: 500px;
   margin: 0 auto;
-  color: #347da2;
-  border-top: 4px solid #347da2;
+  color: #47597E;
+  border-top: 4px solid #47597E;
 }
 
-.edcucation-mod .framework-mod {
-  width: 225px;
+.school-mod .school-img {
+  padding: 0 25px;
 }
 
-.education-mod .school-mod {
-  padding: 0 10px;
+.school-mod .school-text {
+  width: 400px;
+  text-align: left;
 }
 
-.edcucation-mod .tool-mod {
-  width: 225px;
+.school-mod .west-valley {
+  padding-bottom: 20px;
 }
  
 /* Footer Styles */
 .footer {
-  padding-bottom: 45px;
   background-color: #347da2;
 }
 
