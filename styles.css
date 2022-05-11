@@ -1,263 +1,271 @@
 /* Resets */
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: gray;
-  }
-  
-  table, td {
-    border-collapse: collapse;
-  }
-  
-  p, h1, h2, h3, h4, h5, h6 {
-    padding: 0;
-    margin: 0;
-  }
-  
-  img {
-    display: block;
-    border: 0 none;
-  }
-  
-  hr {
-    border: none;
-  }
-  
-  
-  /* General Colors */
-  .white {
-    color: #ffffff;
-  }
-  
-  .black {
-    color: #000000;
-  }
-  
-  /* General Sizes */
-  h1 {
-    font-size: 40px;
-    line-height: 56px;
-  }
-  
-  h3 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  
-  h6 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-  }
-  
-  p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-  /* General Fonts */
-  .title-font {
-    font-family: Impact, Helvetica, Arial, sans-serif;
-    letter-spacing: 5px;
-    font-weight: 100;
-  }
-  
-  .base-font {
-    font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  /* ---------- Starbucks Palette ---------- */
-  
-  /* used as headline / body text & SBS bgs */
-  .sb-deep-green {
-    color: #1e3932;
-  }
-  
-  /* used in SBS bgs */
-  .sb-light-green {
-    color: #d4e9e2;
-  }
-  
-  /* ---------- AMAT Palette ---------- */
-  .amat-white {
-    color: #fff;
-  }
-  
-  .amat-blue {
-    background-color: #347da2;
-  }
-  
-  .amat-brown {
-    color: #DB9946;
-  }
-  
-  /* ---------- World of Warcraft Palette ---------- */
-  .wow-blue {
-    color: #00c0ff;
-  }
-   
-  .wow-gray {
-    color: #cccccc;
-  }
-  
-  
-  /* General Styles */
-  .container {
-    margin: 50px auto;
-    border: 1px solid white;
-    background: #ffffff;
-    text-align: center;
-  }
-  
-  .spacer {
-    font-size: 40px;
-    line-height: 40px;
-    height: 40px;
-  }
-  
-  /* Hero Styles */
-  .hero {
-    background-color: #347da2;
-  }
-  
-  .hero .title {
-    padding: 25px 50px;
-  }
-  
-  /* Starbucks Module Styles */
-  
-  .starbucks-mod {
-    padding: 0 25px;
-    background-color: #ffffff;
-  }
-  
-  .starbucks-mod .experience-banner .headline {
-    background-image: url("https://www.nestlecoffeepartnerssl.com/media/wysiwyg/public/starbucks/WPS_Portal_Desktop_Starbucks1Brand.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 30px 50px;
-    text-align: left;
-  }
-  
-  .starbucks-mod .experience-banner {
-    padding-bottom: 10px;
-  }
-  
-  .starbucks-mod .experience-banner h3 {
-    margin: 5px 0;
-  }
-   
-  .starbucks-mod .experience-banner .divider {
-    width: 400px;
-    margin: 0;
-    color: #d4e9e2;
-    border-top: 4px solid #d4e9e2;
-  }
-  
-  .starbucks-mod .experience-content {
-    text-align: left;
-    padding-bottom: 20px;
-  }
-   
-  .starbucks-mod .experience-content .text-content {
-    padding: 0 20px;
-  }
-  
-  /* AMAT Module Styles */
-  .amat-mod {
-    padding: 0 25px;
-    background-color: #ffffff;
-  }
-  
-  .amat-mod .experience-banner .headline {
-    background-image: url("https://www.appliedmaterials.com/files/styles/landing_hero/public/IR-Banner-3200x1000-A.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 30px 50px;
-    text-align: left;
-    background-position: left;
-  }
-  
-  .amat-mod .experience-banner {
-    padding-bottom: 10px;
-  }
-  
-  .amat-mod .experience-banner h3 {
-    margin: 5px 0;
-  }
-   
-  .amat-mod .experience-banner .divider {
-    width: 400px;
-    margin: 0;
-    color: #d4e9e2;
-    border-top: 4px solid #d4e9e2;
-  }
-  
-  .amat-mod .experience-content {
-    text-align: left;
-    padding-bottom: 20px;
-  }
-   
-  .amat-mod .experience-content .text-content {
-    padding: 0 20px;
-  }
-   
-  /* Education Styles */
-  .education-mod {
-    padding: 0 25px;
-  }
-  
-  .education-mod .headline {
-    background-color: #d4e9e2;
-    padding: 20px 30px;
-    text-align: center;
-  }
-  
-  .education-mod .divider {
-    width: 200px;
-    margin: 0 auto;
-    color: #347da2;
-    border-top: 4px solid #347da2;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
 
-  .edcucation-mod .framework-mod {
-    width: 225px;
-  }
-  
-  .education-mod .school-mod {
-    padding: 0 10px;
-  }
-  
-  .edcucation-mod .tool-mod {
-    width: 225px;
-  }
+table, td {
+  border-collapse: collapse;
+}
 
-  /* Footer Styles */
-  .footer {
-    padding-bottom: 45px;
-    background-color: #347da2;
-  }
-  
-  .footer .headline {
-    padding: 25px 0 10px;
-  }
-  
-  .footer .social-container .icon a svg {
-    color: #d4e9e2;
-  }
-  
-  .footer .divider-1 {
-    width: 600px;
-    border-top: 3px solid #d4e9e2;
-  }
-  
-  .footer .divider-2 {
-    width: 400px;
-    border-top: 2px solid #d4e9e2;
-  }
-  
-  .footer .divider-3 {
-    width: 200px;
-    border-top: 1px solid #d4e9e2;
-  }
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  border: 0 none;
+}
+
+hr {
+  border: none;
+}
+
+
+/* General Colors */
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+/* General Sizes */
+h1 {
+  font-size: 40px;
+  line-height: 56px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* General Fonts */
+.title-font {
+  font-family: Impact, Helvetica, Arial, sans-serif;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+
+.base-font {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* ---------- Starbucks Palette ---------- */
+
+/* used as headline / body text & SBS bgs */
+.sb-deep-green {
+  color: #1e3932;
+}
+
+/* used in SBS bgs */
+.sb-light-green {
+  color: #d4e9e2;
+}
+
+/* ---------- AMAT Palette ---------- */
+.amat-white {
+  color: #fff;
+}
+
+.amat-blue {
+  background-color: #347da2;
+}
+
+.amat-brown {
+  color: #DB9946;
+}
+
+/* ---------- World of Warcraft Palette ---------- */
+.wow-blue {
+  color: #00c0ff;
+}
+ 
+.wow-gray {
+  color: #cccccc;
+}
+
+
+/* General Styles */
+.container {
+  margin: 50px auto;
+  border: 1px solid white;
+  background: #ffffff;
+  text-align: center;
+}
+
+.spacer {
+  font-size: 40px;
+  line-height: 40px;
+  height: 40px;
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #347da2;
+}
+
+.hero .title {
+  padding: 25px 50px;
+}
+
+/* ICON BANNER STYLES */
+
+.icon-banner table {
+  border: 4px solid #47597E;
+  text-align: center;
+  background-color: #DBE6FD;
+}
+
+.icon-banner .icon svg {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-banner .icon {
+  padding: 20px;
+}
+
+/* Starbucks Module Styles */
+
+.starbucks-mod {
+  padding: 0 25px;
+  background-color: #ffffff;
+}
+
+.starbucks-mod .experience-banner .headline {
+  background-image: url("https://www.nestlecoffeepartnerssl.com/media/wysiwyg/public/starbucks/WPS_Portal_Desktop_Starbucks1Brand.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+  text-align: left;
+}
+
+.starbucks-mod .experience-banner {
+  padding-bottom: 10px;
+}
+
+.starbucks-mod .experience-banner h3 {
+  margin: 5px 0;
+}
+ 
+.starbucks-mod .experience-banner .divider {
+  width: 400px;
+  margin: 0;
+  color: #d4e9e2;
+  border-top: 4px solid #d4e9e2;
+}
+
+.starbucks-mod .experience-content {
+  text-align: left;
+  padding-bottom: 20px;
+}
+ 
+.starbucks-mod .experience-content .text-content {
+  padding: 0 20px;
+}
+
+/* AMAT Module Styles */
+.amat-mod {
+  padding: 0 25px;
+  background-color: #ffffff;
+}
+
+.amat-mod .experience-banner .headline {
+  background-image: url("https://www.appliedmaterials.com/files/styles/landing_hero/public/IR-Banner-3200x1000-A.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+  text-align: left;
+  background-position: left;
+}
+
+.amat-mod .experience-banner {
+  padding-bottom: 10px;
+}
+
+.amat-mod .experience-banner h3 {
+  margin: 5px 0;
+}
+ 
+.amat-mod .experience-banner .divider {
+  width: 400px;
+  margin: 0;
+  color: #d4e9e2;
+  border-top: 4px solid #d4e9e2;
+}
+
+.amat-mod .experience-content {
+  text-align: left;
+  padding-bottom: 20px;
+}
+ 
+.amat-mod .experience-content .text-content {
+  padding: 0 20px;
+}
+ 
+/* Education Styles */
+.education-mod {
+  padding: 0 25px;
+}
+
+.education-mod .headline {
+  background-color: #d4e9e2;
+  padding: 20px 30px;
+}
+
+.education-mod .divider {
+  width: 200px;
+  margin: 0 auto;
+  color: #347da2;
+  border-top: 4px solid #347da2;
+}
+
+.edcucation-mod .framework-mod {
+  width: 225px;
+}
+
+.education-mod .school-mod {
+  padding: 0 10px;
+}
+
+.edcucation-mod .tool-mod {
+  width: 225px;
+}
+ 
+/* Footer Styles */
+.footer {
+  padding-bottom: 45px;
+  background-color: #347da2;
+}
+
+.footer .divider-1 {
+  width: 600px;
+  border-top: 3px solid #d4e9e2;
+}
+
+.footer .divider-2 {
+  width: 400px;
+  border-top: 2px solid #d4e9e2;
+}
+
+.footer .divider-3 {
+  width: 200px;
+  border-top: 1px solid #d4e9e2;
+}
