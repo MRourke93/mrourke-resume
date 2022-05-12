@@ -267,39 +267,61 @@ p {
 }
  
 /* School Styles */
-.school-mod {
-  padding: 0 25px;
-  text-align: center;
+.tile-container h2, h3, p {
+  color: #221D07;
 }
 
-.school-mod .school-border {
-  border: 4px solid #47597E;
-  text-align: center;
-  background-color: #DBE6FD;
+.tile-1 table, .tile-2 table {
+  background-color: #E9E3D0;
+  border: 2px solid #E9EEEC;
 }
 
-.school-mod .headline {
-  padding: 20px 30px;
+.tile-container h2 {
+  font-family: 'Roboto Condensed';
+  font-size: 22px; 
+  line-height: 34px;
 }
 
-.school-mod .divider {
-  width: 500px;
-  margin: 0 auto;
-  color: #47597E;
-  border-top: 4px solid #47597E;
+.tile-container h3 {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.school-mod .school-img {
-  padding: 0 25px;
+.tile-container p {
+  font-size: 14px;
+  font-family: 'Poppins';
 }
 
-.school-mod .school-text {
-  width: 400px;
-  text-align: left;
+.tile-container {
+  background-image: url("https://cdn.worktechacademy.com/uploads/2020/04/Home-Landing-scaled.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.school-mod .west-valley {
-  padding-bottom: 20px;
+.tile-container .tile-1 {
+  padding-top: 20px;
+}
+
+.tile-container .tile-1 table, .tile-container .tile-2 table  {
+  height: 200px;
+  width: 400px; 
+}
+
+.tile-container .tile-1 p, .tile-container .tile-2 p {
+  padding: 13px 10px 23px;
+} 
+
+.tile-container .tile-1 h2, .tile-container .tile-2 h2 {
+  padding-top: 10px;
+} 
+
+.tile-container .text {
+  padding: 0 15px;
+} 
+
+.tile-container .tile-2 {
+  padding-bottom: 20px;  
 }
  
 /* Footer Styles */
